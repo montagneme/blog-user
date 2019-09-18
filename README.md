@@ -3,7 +3,7 @@
 > 此应用前端是用vue搭配iview生态搭建的一个个人博客网站，后端是基于node.js进行开发。
 > 浏览界面：[仲威的博客](https://blogme.top)
 
-# 搭建命令
+## 搭建命令
 ``` bash
 # 安装所有需要的依赖
 npm install
@@ -15,7 +15,7 @@ npm run build
 ## 技术栈
 
 ``` bash
- - vue #基本框架
+ - vue #基本框架
  - vue-router #路由跳转
  - vuex #页面状态控制
  - axios #完成http请求，配置接口
