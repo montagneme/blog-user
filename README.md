@@ -1,30 +1,30 @@
-# bok-demo
+# 个人博客
 
-> record some ...
+> 此应用前端是用vue搭配iview生态搭建的一个个人博客网站，后端是基于node.js进行开发。
+> 浏览界面：[仲威的博客](https://blogme.top)
 
-## Build Setup
+# 搭建命令
+``` bash
+# 安装所有需要的依赖
+npm install
+# 开启项目
+npm run dev
+# 打包项目 
+npm run build
+```
+## 技术栈
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+ - vue #基本框架
+ - vue-router #路由跳转
+ - vuex #页面状态控制
+ - axios #完成http请求，配置接口
+ - iview #vue生态圈，用于快速搭建页面
+ - jquery #js插件库，辅助控制
+ - highlight #代码高亮插件
+ - node.js #后端开发语言
+ - express #基于node.js的框架
 ```
+---
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+此博客初期花费时间为25天，到如今，慢慢地在维护，增加新功能，使之更加完善。
