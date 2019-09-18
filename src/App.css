@@ -1,0 +1,201 @@
+/* 导航 */
+.guide{
+    width: 100%;
+    height:50px;
+    float: left;
+    position: fixed;
+    z-index: 120;
+    transition: all .5s;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(245,245,245);
+}
+.ele_box{
+    position: absolute;
+    right: 120px;
+    top: 15px;
+}
+.ele{
+    width: 28px;
+    height: 15px;
+    border: 1px solid #5c6b77;
+    box-sizing: border-box;
+    padding: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.ele_head{
+    width: 4px;
+    height: 7px;
+    position: absolute;
+    border-radius: 2px;
+    right: -4px;
+    top: 3px;
+    background-color: #5c6b77;
+}
+.ele_body{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(92,107,119);
+    border-radius: 2px;
+    
+}
+@keyframes ele_move{
+    0%{
+        width:0%;
+        background-color: #c7254e;
+    }
+    50%{
+        width: 50%;
+        background-color: #2b85e4;
+    }
+    100%{
+        width:100%;
+        background-color: #19be6b;
+    }
+}
+@keyframes ele_sock{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.guide_1{
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(245,245,245);
+}
+.guide_2{
+    background-color: rgba(46,31,71,0);
+    box-shadow: unset;
+}
+.guide_3{
+    background-color: rgb(33,55,75);
+    box-shadow: unset;
+}
+.guide_4{
+    background-color: rgba(0,0,0,0);
+    box-shadow: unset;
+}
+/* .head{
+    width: 100%;
+    height:300px;
+    overflow: hidden;
+}
+.head_img{
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(100,100,100);
+}
+.head_name{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+} */
+.guide_box{
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+}
+.guide_list{
+    width: 600px;
+    height:auto;
+    list-style: none;
+    float: right;
+}
+.guide_list li{
+    margin: auto;
+    height:50px;
+    color: rgb(140,140,140);
+    line-height: 50px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .5s;
+    float: left;
+    position: relative;
+}
+.guide_to{
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.l{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0px;
+}
+.l_c{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(120,120,120);
+    transition: all .5s;
+}
+.guide_hover{
+    width: 100%;
+}
+.guide_active{
+    width: 100%;
+}
+
+
+/* 路由切换动画 */
+.router-enter,.router-leave-to{
+    opacity: 0;
+    transform: translateX(-50px);
+}
+.router-enter-active{
+    transition: all .3s;
+}
+.router-leave-active{
+    transition: all .3s;
+}
+/* loading动画 */
+.loading{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 210;
+}
+.loading-enter-active{
+    transition: all .5s;
+}
+.loading-leave-active{
+    transition: all .5s;
+}
+.loading-enter,.loading-leave-to{
+    opacity: 0;
+}
+.spin{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.ivu-spin-fix{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+

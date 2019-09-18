@@ -1,0 +1,9 @@
+@media screen and (max-device-width: 460px) {
+.scene::before {
+    --size: 400px;
+    top: -40px;
+}
+.scene{
+    margin-top: 200px;
+}
+}

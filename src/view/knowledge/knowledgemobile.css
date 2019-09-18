@@ -1,0 +1,17 @@
+@media screen and (max-device-width: 460px) {
+    .box{
+        padding: 0px;
+    }
+    .module{
+        width: 350px;
+        margin-top: 40px;
+    }
+    .tag_box{
+        width: 250px;
+        margin-top: 8px;
+    }
+    .module_ul li{
+        width: 100%;
+        margin-left: 0px;
+    }
+}

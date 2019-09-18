@@ -1,0 +1,158 @@
+@media screen and (max-device-width: 1550px) {
+    .bolg_list{
+        width:900px;
+    }
+    .page{
+        width: 900px;
+    }
+}
+
+@media screen and (max-device-width: 460px) {
+/* 搜索 */
+.head_right{
+    display: none;
+}
+.head_left{
+    display: none;
+}
+
+.search{
+    top:43px;
+    width: 40px;
+    height: 40px;
+}
+.search_value_box{
+    width: 0px;
+    float: left;
+    transition:all .5s;
+    overflow: hidden;
+    margin-top: -1px;
+    height: 40px;
+    line-height: 39px;
+}
+.search_icon{
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+}
+.search_value_box_hover{
+    width: 220px;
+    margin-left: 30px;
+    
+}
+.search_hover{
+    width: 300px;
+}
+.autocomplete{
+    width: 220px !important;
+}
+/* 列表 */
+.no_list{
+    width: 350px;
+}
+.bolg_list{
+    width: 350px;
+    margin-top: 98px;
+}
+.bolg_list li{
+    height:auto;
+    margin-top: 30px;
+}
+.list_img_box{
+    height: 60px;
+}
+.list_title_box{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+}
+.list_img_shelter_box{
+    left: 50px;
+}
+.list_img_shelter{
+    left: 0px;
+}
+.list_info{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 8px 8px;
+}
+.list_title{
+    width: 100%;
+    font-size: 14px;
+    height:20px;
+    line-height: 20px;
+}
+.list_time{
+    font-size: 10px;
+}
+.tag{
+    height:12px !important;
+    font-size: 8px !important;
+    line-height: 12px !important;
+}
+.list_content{
+    margin-top: 0px;
+    font-size: 10px;
+    line-height: 12px;
+    height:auto;
+    overflow: hidden;
+    margin-top: 8px;
+}
+.list_record{
+    height: auto;
+    overflow: hidden;
+    line-height: 20px;
+    margin-top: 5px;
+
+}
+.list_record_span{
+    margin-left:8px;
+    font-size: 8px;
+    
+}
+.list_tag{
+    width: 100%;
+    height:auto;
+    font-size: 12px;
+    margin-bottom: 10px;
+    float: right;
+    margin-top: 2px;
+}
+.tag{
+    float: left;
+    height: 20px !important;
+    line-height: 20px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tag:first-child{
+    margin-left: 0px;
+}
+.t_l_icon{
+    margin-right: 20px;
+    font-size: 15px !important;
+}
+.t_r_icon{
+    margin-left: 20px;
+    font-size: 15px !important;
+}
+.list_title{
+
+}
+.new{
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    top: -12.5px;
+    right: -10px;
+}
+/* 翻页 */
+.page{
+    width: 350px;
+}
+
+}

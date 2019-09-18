@@ -1,0 +1,27 @@
+.box{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 120;
+    transform-style: preserve-3d;
+    perspective: 400;
+}
+.not{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 200px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgb(230,230,230);
+    cursor: default;
+    transform:translateZ(50px);
+}

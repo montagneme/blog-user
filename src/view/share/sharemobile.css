@@ -1,0 +1,28 @@
+@media screen and (max-device-width: 460px) {
+.share_box{
+    width: 350px;
+}
+.share_list li{
+    width: 150px;
+    margin-left: 50px;
+    height: 150px;
+    margin-top: 60px;
+}
+.share_content_box{
+    padding-top: 15px;
+}
+.share_content{ 
+    font-size: 10px !important;
+    margin-top: 5px;
+}
+.share_list li:nth-child(2n+1){
+    margin-left: 0px;
+}
+.share_tag{
+    bottom: -40px;
+}
+.share_author{
+    margin-top: 5px;
+}
+
+}

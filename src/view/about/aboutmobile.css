@@ -1,0 +1,10 @@
+@media screen and (max-device-width: 460px) {
+    .box{
+        min-width: 0px;
+        position: absolute;
+    }
+    .intro{
+        width: 350px;
+        top: 140px;
+    }
+}

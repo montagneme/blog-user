@@ -1,0 +1,23 @@
+@media screen and (max-device-width: 460px) {
+    .box{
+        min-height: 0px;
+    }
+    .words_box{
+        width: 350px;
+        height: 250px;
+    }
+    .ground{
+        width: 350px;
+        margin-top: 10px;
+    }
+    .words{
+        width: 340px;
+    }
+    .but{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .words_display{
+        margin-top: 20px;
+    }
+}

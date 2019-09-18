@@ -1,0 +1,127 @@
+@media screen and (max-device-width: 460px) {
+    /* 图标 */
+.love{
+    top:60px;
+    right: 20px;
+    opacity: 0.8;
+}
+.back{
+    bottom:20px;
+    right:20px;
+    opacity: 0.8;
+}
+.catalog_icon{
+    display: block;
+    opacity: 0.8;
+    top: 110px;
+}
+.catalog{
+    transform: translateX(168px);
+    top: 160px;
+}
+.catalog_close{
+    display: block;
+}
+.catalog_name{
+    margin-top: 10px;
+}
+/* 文章 */
+.article{
+    width: 350px;
+    margin-top: 70px;
+}
+.article_title{
+    font-size: 20px;
+}
+.article_record{
+    width: 100%;
+    height:20px;
+    line-height: 20px;
+}
+.article_record span{
+    margin-left: 5px;
+    font-size: 10px;
+}
+.tags{
+    width: 100%;
+}
+.tag{
+    height:30px !important;
+    font-size: 10px !important;
+    line-height: 30px !important;
+    margin-right: 4px;
+    margin-left: 4px;
+    float: left;
+}
+.tag:first-child{
+    margin-left: 0px;
+}
+/* 评论 */
+.talk_box{
+    width: 350px;
+}
+.talk_name{
+    width: 100% !important;
+}
+
+.talk_display_box{
+    width: 350px;
+}
+.talk_p1{
+    width: 216px;
+}
+.talk_p1_2{
+    width: 198px;
+}
+.talk_time{
+    width: 100px;
+    font-size: 10px;
+    
+}
+.talk_time_2{
+    width: 100px !important;
+}
+.talk_p2{
+    width: 90%;
+    margin-left: 10%;
+}
+/* 底部 */
+.bottom{
+    height: auto;
+}
+.bottom_box{
+    width: 350px;
+    height: auto;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+.last{
+    position: relative;
+    width: 100%;
+    height:auto;
+}
+.next{
+    position: relative;
+    width: 100%;
+    height:auto;
+    left: 0px;
+    margin-top: 20px;
+}
+.last_title{
+    width: 60px;
+}
+.bottom_title{
+    width: 290px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bottom_content{
+    width: 350px;
+    margin-top: 10px;
+}
+.bottom_img{
+    width: 350px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+}

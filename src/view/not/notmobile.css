@@ -1,0 +1,7 @@
+@media screen and (max-device-width: 460px) {
+.not{
+    width: 350px;
+    font-size: 150px;
+    margin-top: 250px;
+}
+}
